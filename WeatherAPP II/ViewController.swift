@@ -56,6 +56,15 @@ class ViewController: UIViewController, NSURLConnectionDataDelegate{
         self.data.appendData(dataReceived)
         
         
+    }
+    //下載完成
+    func connectionDidFinishLoading(connection: NSURLConnection!){
+        println("download finished")
+        
+        var json = NSString(data: data, encoding: NSUTF8StringEncoding)
+        println(json)
+        
+        
         // 解析 JSON
         
         // 使用 NSDictionary: NSDitionary 是一種 Associative Array 的資料結構
@@ -71,10 +80,5 @@ class ViewController: UIViewController, NSURLConnectionDataDelegate{
         
         // 輸出到 UI
         self.temperature.text = "\(weatherTempCelsius)℃"
-        
-    }
-    //下載完成
-    func connectionDidFinishLoading(connection: NSURLConnection!){
-        println("download finished")
     }
 }

@@ -13,6 +13,7 @@
 		F374F299199F2EFC00B7130A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F374F297199F2EFC00B7130A /* Main.storyboard */; };
 		F374F29B199F2EFC00B7130A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F374F29A199F2EFC00B7130A /* Images.xcassets */; };
 		F374F2A7199F2EFC00B7130A /* WeatherAPP_IITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F374F2A6199F2EFC00B7130A /* WeatherAPP_IITests.swift */; };
+		F374F2B7199F4A6A00B7130A /* Rainy-Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F374F2B6199F4A6A00B7130A /* Rainy-Wallpaper.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F374F2A0199F2EFC00B7130A /* WeatherAPP IITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WeatherAPP IITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F374F2A5199F2EFC00B7130A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F374F2A6199F2EFC00B7130A /* WeatherAPP_IITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPP_IITests.swift; sourceTree = "<group>"; };
+		F374F2B6199F4A6A00B7130A /* Rainy-Wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Rainy-Wallpaper.jpg"; path = "../../../Downloads/Rainy-Wallpaper.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				F374F290199F2EFC00B7130A /* AppDelegate.swift */,
 				F374F295199F2EFC00B7130A /* ViewController.swift */,
 				F374F297199F2EFC00B7130A /* Main.storyboard */,
+				F374F2B6199F4A6A00B7130A /* Rainy-Wallpaper.jpg */,
 				F374F29A199F2EFC00B7130A /* Images.xcassets */,
 				F374F292199F2EFC00B7130A /* WeatherAPP_II.xcdatamodeld */,
 				F374F28E199F2EFC00B7130A /* Supporting Files */,
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F374F2B7199F4A6A00B7130A /* Rainy-Wallpaper.jpg in Resources */,
 				F374F299199F2EFC00B7130A /* Main.storyboard in Resources */,
 				F374F29B199F2EFC00B7130A /* Images.xcassets in Resources */,
 			);

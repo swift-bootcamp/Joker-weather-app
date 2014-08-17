@@ -29,6 +29,12 @@ class ViewController: UIViewController, NSURLConnectionDataDelegate{
         self.city.text = "Taipei"
         self.icon.image = UIImage(named: "rainy")
         
+        let singleFingerTap = UITapGestureRecognizer(target: self, action: "handleSingleTap:")
+        self.view.addGestureRecognizer(singleFingerTap)
+    }
+    
+    func handleSingleTap(recogniser: UITapGestureRecognizer){
+        
         startConnection()
         
     }
